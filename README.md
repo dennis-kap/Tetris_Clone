@@ -3,8 +3,7 @@ Tetris clone made using Python and Pygame
 
 Welcome to my Tetris Clone!
 
-HOW TO RUN:
-~~~~~~~~~~
+## HOW TO RUN:
 
 1. Download and unzip the folder from GitHub
 2. Open command prompt within the game folder (this can be done on windows by pressing the address bar
@@ -17,8 +16,8 @@ at within the downloaded folder) and type 'python -m venv t_env'. Press enter
    Run MainFile.py using Python.exe
 
 
-REQUIRED FILES:
-~~~~~~~~~~~~~~~
+## REQUIRED FILES:
+
 scores.txt
 Tetris.ttf
 
@@ -27,11 +26,11 @@ Screen_Class.py
 Shape_Class.py
 Start_Pause.py
 
-CONTROLS:
-~~~~~~~~~
+## CONTROLS:
 
-Menu:
------
+
+# Menu:
+
 UP/W - Move up
 DOWN/S - Move down
 LEFT/A - Change value left
@@ -42,8 +41,8 @@ Q - Quit
 ESC - Return to main menu (only if in settings)
 
 
-In Game:
---------
+# In Game:
+
 UP/W/X - Rotate Clockwise
 Z - Rotate Counterclockwise 
 LEFT/A - Move left
@@ -54,8 +53,7 @@ SPACE - Hard drop
 ESC/P - Pause
 Q - Quit
 
-USABILITY:
-~~~~~~~~~~
+## USABILITY:
 
 This code can be viewed and used for personal use, but not commercially or represented as one's own code.
 
