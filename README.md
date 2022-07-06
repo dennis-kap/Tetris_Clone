@@ -19,11 +19,15 @@ at within the downloaded folder) and type 'python -m venv t_env'. Press enter
 ## REQUIRED FILES:
 
 scores.txt
+
 Tetris.ttf
 
 MainFile.py
+
 Screen_Class.py
+
 Shape_Class.py
+
 Start_Pause.py
 
 ## CONTROLS:
@@ -32,12 +36,17 @@ Start_Pause.py
 # Menu:
 
 UP/W - Move up
+
 DOWN/S - Move down
+
 LEFT/A - Change value left
+
 RIGHT/D - Change value right
+
 RETURN/SPACE - SELECT
 
 Q - Quit
+
 ESC - Return to main menu (only if in settings)
 
 
