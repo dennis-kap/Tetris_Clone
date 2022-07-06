@@ -44,13 +44,17 @@ ESC - Return to main menu (only if in settings)
 # In Game:
 
 UP/W/X - Rotate Clockwise
+
 Z - Rotate Counterclockwise 
+
 LEFT/A - Move left
+
 RIGHT/D - Move right
 
 SPACE - Hard drop
 
 ESC/P - Pause
+
 Q - Quit
 
 ## USABILITY:
