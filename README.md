@@ -30,10 +30,10 @@ Shape_Class.py
 
 Start_Pause.py
 
-## CONTROLS:
+# CONTROLS:
 
 
-# Menu:
+### Menu:
 
 UP/W - Move up
 
@@ -50,7 +50,7 @@ Q - Quit
 ESC - Return to main menu (only if in settings)
 
 
-# In Game:
+### In Game:
 
 UP/W/X - Rotate Clockwise
 
