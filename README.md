@@ -5,15 +5,16 @@ Welcome to my Tetris Clone!
 
 ## HOW TO RUN:
 
-1. Download and unzip the folder from GitHub
-2. Open command prompt within the game folder (this can be done on windows by pressing the address bar
-at within the downloaded folder) and type 'python -m venv t_env'. Press enter
-3. Then type 't_env\Scripts\activate' and press enter again
-3. Then type 'pip install -r requirements.txt' and press enter
-4. 'deactivate' then enter
-5. Finally type 'python3 main_file.py'
+1. Download and unzip the folder from GitHub.
+2. Open command prompt within the game folder (this can be done on Windows by typing 'cmd' and pressing enter
+in the address bar of the folder).
+3. Type 'python -m venv t_env'. Press enter.
+4. Then type 't_env\Scripts\activate' and press enter again.
+5. Then type 'pip install -r requirements.txt' and press enter.
+6. 'deactivate' then enter.
+7. Finally type 'python main_file.py'
 	OR
-   Run MainFile.py using Python.exe
+   Run MainFile.py using Python.exe.
 
 
 ## REQUIRED FILES:
