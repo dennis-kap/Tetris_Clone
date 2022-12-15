@@ -78,15 +78,16 @@ You can run run <code>main_file.py</code> using Python.exe.
 
 ## Screenshots
 
-<img align="center" src="Images/start.gif" width="600px">
+<p align="center">
+   <img src="Images/start.gif" width="600px">
+   *Menu*
+</p>
 
-<div align="center" style="font-style: italic;">Menu</div>
 
-<br />
-
-<img align="center" src="Images/gameplay.gif" width="600px">
-
-<div align="center" style="font-style: italic;">Gameplay</div>
+<p align="center">
+   <img src="Images/gameplay.gif" width="600px">
+   *Gameplay*
+</p>
 
 ## Usability
 
