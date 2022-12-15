@@ -81,14 +81,14 @@ You can run run <code>main_file.py</code> using Python.exe.
 <p align="center">
    <img src="Images/start.gif" width="600px">
    <br />
-   Menu
+   <i>Menu</i>
 </p>
 
 
 <p align="center">
    <img src="Images/gameplay.gif" width="600px">
    <br />
-   Gameplay
+   <i>Gameplay</i>
 </p>
 
 ## Usability
