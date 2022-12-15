@@ -79,9 +79,11 @@ You can run run <code>main_file.py</code> using Python.exe.
 ## Screenshots
 
 <img style="text-align:center;" src="Images/start.gif" width="600px">
+
 <p style="text-align:center; font-style: italic;">Menu</p>
 
 <img style="text-align:center;" src="Images/gameplay.gif" width="600px">
+
 <p style="text-align:center; font-style: italic;">Gameplay</p>
 
 ## Usability
