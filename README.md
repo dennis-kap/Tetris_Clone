@@ -1,82 +1,94 @@
-# Tetris_Clone
+# Tetris Clone
    Tetris clone made using Python and Pygame
 
    Welcome to my Tetris Clone!
 
+## How to Install:
+
+   1. Install Python 3 from <code>https://www.python.org/</code>.
+   2. Download and unzip the folder from GitHub.
+   3. Open command prompt or terminal within the unzipped folder
+      * (this can be done on Windows by typing 'cmd' and pressing enter in the address bar of the folder).
+   3. Type <code>python -m venv t_env</code> and press enter.
+
+   4. Then type <code>t_env\Scripts\activate</code> and press enter again.
+   5. Input <code>pip install -r requirements.txt</code> and press enter.
+   6. Finally, <code>deactivate</code> then enter.
+
 ## HOW TO RUN:
+The game can be run by going into the command prompt or terminal of the unzipped folder again and inputting <code>python main_file.py</code> and pressing enter.
 
-   1. Download and unzip the folder from GitHub.
-   2. Open command prompt within the game folder (this can be done on Windows by typing 'cmd' and pressing enter
-   in the address bar of the folder).
-   3. Type 'python -m venv t_env'. Press enter.
-   4. Then type 't_env\Scripts\activate' and press enter again.
-   5. Then type 'pip install -r requirements.txt' and press enter.
-   6. 'deactivate' then enter.
-   7. Finally type 'python main_file.py'
-      OR
-      Run MainFile.py using Python.exe.
+OR
+
+You can run run <code>main_file.py</code> using Python.exe.
 
 
-## REQUIRED FILES:
 
-   scores.txt
+## Required Files/Installations:
 
-   Tetris.ttf
+      Python 3
 
-   MainFile.py
+      Pygame
 
-   Screen_Class.py
+      scores.txt
 
-   Shape_Class.py
+      Tetris.ttf
 
-   Start_Pause.py
+      MainFile.py
 
-# CONTROLS:
+      Screen_Class.py
 
+      Shape_Class.py
+
+      Start_Pause.py
+
+# Controls:
 
 ### Menu:
 
-   UP/W - Move up
+      > UP/W - Move up
 
-   DOWN/S - Move down
+      > DOWN/S - Move down
 
-   LEFT/A - Change value left
+      > LEFT/A - Change value left
 
-   RIGHT/D - Change value right
+      > RIGHT/D - Change value right
 
-   RETURN/SPACE - SELECT
+      > RETURN/SPACE - SELECT
 
-   Q - Quit
+      > Q - Quit
 
-   ESC - Return to main menu (only if in settings)
+      > ESC - Return to main menu (only if in settings)
 
 
 ### In Game:
 
-   UP/W/X - Rotate Clockwise
+      > UP/W/X - Rotate Clockwise
 
-   Z - Rotate Counterclockwise 
+      > Z - Rotate Counterclockwise 
 
-   LEFT/A - Move left
+      > LEFT/A - Move left
 
-   RIGHT/D - Move right
+      > RIGHT/D - Move right
 
-   SPACE - Hard drop
+      > SPACE - Hard drop
 
-   ESC/P - Pause
+      > ESC/P - Pause
 
-   Q - Quit
+      > Q - Quit
 
-## USABILITY:
+## Screenshots:
+
+<img style="text-align:center;" src="Images/start.gif" width="600px">
+<p style="text-align:center; font-style: italic;">Menu</p>
+
+<img style="text-align:center;" src="Images/gameplay.gif" width="600px">
+<p style="text-align:center; font-style: italic;">Gameplay</p>
+
+## Usability:
 
    This code can be viewed and used for personal use, but not commercially or represented as one's own code.
 
-   Code created by dennis-kap
+## Authors:
 
-## Images:
-
-Menu<br />
-<img src="Images/start.gif" width="350px">
-
-Gameplay<br />
-<img src="Images/gameplay.gif" width="350px">
+      Code created by dennis-kap
