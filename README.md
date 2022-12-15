@@ -76,7 +76,7 @@
 ## Images:
 
 Menu
-<img src="image/start.gif" width="200px">
+<img src="Images/start.gif" width="200px">
 
 Gameplay
-<img src="image/gameplay.gif" width="200px">
+<img src="Images/gameplay.gif" width="200px">
