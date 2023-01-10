@@ -1,8 +1,6 @@
 # Tetris Clone
 
-   Tetris clone made using Python and Pygame
-
-   Welcome to my Tetris Clone!
+   Welcome to my Tetris Clone made using Python and Pygame!
 
 ## How to Install
 
@@ -22,7 +20,7 @@ The game can be run by going into the command prompt or terminal of the unzipped
 
 OR
 
-You can run run <code>main_file.py</code> using Python.exe.
+You can run <code>main_file.py</code> using Python.exe.
 
 ## Required Files/Installations
 
