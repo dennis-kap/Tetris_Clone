@@ -200,19 +200,12 @@ def generate_next_shape():
 # Function that will check any possible collision locations of all the static blocks from previous shapes. Based on the variable 'side', the function
 # will check either the top, right or left of blocks depending on the need for collisions. This is used to make the process of checking for
 # collisions more efficient by avoiding the need to check every block for collision with any of the blocks in the current shape
-def get_possible_collisions(shape_dict, side):
+def get_possible_collisions(shape_dict):
     collision_list = []
 
     for block in shape_dict:
-        if side == "top":
-            if shape_dict.get((block[0], block[1] - 1)) == None:
-                collision_list.append(block)
-        elif side == "right":
-            if shape_dict.get((block[0] - 1, block[1])) == None:
-                collision_list.append(block)
-        elif side == "left":
-            if shape_dict.get((block[0] + 1, block[1])) == None:
-                collision_list.append(block)
+        if (shape_dict.get((block[0], block[1] - 1)) == None) or (shape_dict.get((block[0] - 1, block[1])) == None) or (shape_dict.get((block[0] + 1, block[1])) == None):
+            collision_list.append(block)
 
     return collision_list
 
@@ -363,10 +356,7 @@ def main():
 
         shape_hitbox = current_shape.shape_blocks
 
-        possible_left_collisions = get_possible_collisions (static_blocks, "left")
-        possible_right_collisions = get_possible_collisions (static_blocks, "right")
-        possible_down_collisions = get_possible_collisions (static_blocks, "top")
-
+        possible_collisions = get_possible_collisions (static_blocks)
 
         if rotate_cw or rotate_ccw:
             if rotate_cw:
@@ -385,11 +375,7 @@ def main():
 
                 if block_tuple[1] >= play_height / block_size:
                     can_rotate = False
-                if block_tuple in possible_left_collisions:
-                    can_rotate = False
-                if block_tuple in possible_right_collisions:
-                    can_rotate = False
-                if block_tuple in possible_down_collisions:
+                if block_tuple in possible_collisions:
                     can_rotate = False
                 if block[0] > ((play_width / block_size) - 1) or block[0] < 0:
                     can_rotate = False
@@ -403,7 +389,7 @@ def main():
             can_left = True
 
             for block in shape_hitbox:
-                if ((block[0] - 1), block[1]) in possible_left_collisions or block[0] < 1:
+                if ((block[0] - 1), block[1]) in possible_collisions or block[0] < 1:
                     can_left = False
 
             if can_left:
@@ -414,7 +400,7 @@ def main():
             can_right = True
 
             for block in shape_hitbox:
-                if ((block[0] + 1), block[1]) in possible_right_collisions or block[0] > (play_width / block_size) - 2:
+                if ((block[0] + 1), block[1]) in possible_collisions or block[0] > (play_width / block_size) - 2:
                     can_right = False
 
             if can_right:
@@ -435,7 +421,7 @@ def main():
         block_edge = block_size / 5
 
 # Checking location of hard drop
-        drop_amount = show_drop(current_shape, possible_down_collisions, block_edge)
+        drop_amount = show_drop(current_shape, possible_collisions, block_edge)
 
 # If a hard drop occured the 'dropped' variable will be used to get a new shape later in the loop
         dropped = False
@@ -452,7 +438,7 @@ def main():
 
         for block in shape_hitbox:
             if (block[1] >= ((play_height / block_size) - 1)) \
-            or (block[0], (block[1] + 1)) in possible_down_collisions:
+            or (block[0], (block[1] + 1)) in possible_collisions:
 
                 if can_delay:
                     collision_delay = pygame.time.get_ticks ()
