@@ -7,7 +7,7 @@
    1. Install Python 3 from <code><https://www.python.org/></code>.
    2. Download and unzip the folder from GitHub.
    3. Open command prompt or terminal within the unzipped folder
-      * (this can be done on Windows by typing 'cmd' and pressing enter in the address bar of the folder).
+      * (this can be done on Windows by typing <code>cmd</code> and pressing enter in the address bar of the folder named <code>Tetris_clone-main</code>).
    3. Type <code>python -m venv t_env</code> and press enter.
 
    4. Then type <code>t_env\Scripts\activate</code> and press enter again.
